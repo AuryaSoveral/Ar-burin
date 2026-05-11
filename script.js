@@ -1,5 +1,3 @@
-
-
 const track = document.querySelector('.card-movel')
 let slides = document.querySelectorAll('.image-product')
 
@@ -20,7 +18,6 @@ function moveCarousel() {
     track.style.transition = "transform 0.5s linear"
     track.style.transform = `translateX(${-slideWidth * index}px)`
 
-
     if (index >= slides.length / 2) {
         setTimeout(() => {
             track.style.transition = "none"
@@ -40,18 +37,13 @@ function stopCarousel() {
     clearInterval(interval)
 }
 
-
 startCarousel()
-
 
 const wrapper = document.querySelector('.carousel-wrapper')
 
 wrapper.addEventListener('mouseenter', stopCarousel)
 
 wrapper.addEventListener('mouseleave', startCarousel)
-
-
-
 
 document.querySelector('.contato-form')?.addEventListener('submit', (e) => {
     e.preventDefault();
