@@ -30,13 +30,11 @@ body {
     background: #111111;
 }
 
-
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-
 }
 
 .logo img {
@@ -55,12 +53,10 @@ body {
     font-size: 16px;
     transition: color 0.3s;
     white-space: nowrap;
-
 }
 
 .nav a:hover {
     color: #d4aa6a;
-    ;
 }
 
 .btn-whats {
@@ -180,8 +176,6 @@ body {
     padding-bottom: 35px;
     padding: 30px 15px;
     margin-bottom: 10px;
-
-
 }
 
 .sobre-text {
@@ -282,12 +276,10 @@ body {
     overflow: hidden;
 }
 
-
 .card-movel {
     display: flex;
     gap: 30px;
 }
-
 
 .image-product {
     min-width: 360px;
@@ -298,7 +290,6 @@ body {
     position: relative;
     cursor: grab;
     transition: transform 0.2s ease, opacity 0.4s ease;
-
 }
 
 .image-product.active {
@@ -335,7 +326,6 @@ body {
     bottom: 15px;
     left: 15px;
     color: #b8934a;
-    ;
     font-size: 18px;
     background: rgba(0, 0, 0, 0.4);
     padding: 6px 12px;
@@ -385,11 +375,9 @@ body {
 }
 
 .subtitle {
-
     text-align: center;
     margin: 0 auto;
 }
-
 
 .visite-content {
     display: grid;
@@ -431,7 +419,6 @@ body {
 }
 
 .container-contact {
-
     background: #3f3e3e;
 }
 
@@ -545,7 +532,6 @@ body {
 }
 
 .footer-logo img {
-
     height: 60px;
     margin-bottom: 15px;
 }
@@ -566,7 +552,6 @@ body {
     text-decoration: none;
     transition: color 0.3s;
 }
-
 
 .footer-menu a:hover {
     color: white;
@@ -636,7 +621,6 @@ body {
     padding-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
-
 }
 
 .dev {
@@ -648,13 +632,11 @@ body {
     max-height: 50px;
     width: auto;
     display: inline-block;
-
 }
 
 .dev a {
     color: #888884;
     text-decoration: none;
-
 }
 
 
@@ -690,7 +672,6 @@ body {
     /* text-align: center; */
     /* } */
     /* } */
-
 
     @media (max-width: 768px) {
 
@@ -728,12 +709,6 @@ body {
         h2 {
             font-size: 2em;
         }
-
     }
 
 
-
-
-
-    /* #6faa55
- #5b8b46*/
